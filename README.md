@@ -33,3 +33,11 @@ Being a FCN, YOLO is invariant to the size of the input image. So I kept the siz
 Before v3, YOLO used to softmax the class scores. However, that design choice has been dropped in v3, and authors have opted for using sigmoid instead. The reason is that Softmaxing class scores assume that the classes are mutually exclusive which is rarely the case in a real-time object detection scenario.
 
  Reference - https://github.com/AlexeyAB/darknet
+ 
+ The output files from EDA have been used as input to darknet. The weights file for darknet obtained after training for one epoch has been stored at -
+
+https://drive.google.com/file/d/1Z8PcMMCz1sfiwRO1eKoei3rmD9LMfrSJ/view?usp=sharing
+
+The output over train set can be viewed at - https://drive.google.com/drive/folders/1DQxWK__IhlSKLqytyNDPTHLjveWqCIVJ?usp=sharing
+
+The output for the test set can be viewed at  - https://drive.google.com/drive/folders/1PT4eq7O3RDNuR8eHjP94FbGY7TXwAHaF?usp=sharing
